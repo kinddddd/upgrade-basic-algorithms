@@ -57,3 +57,25 @@ z = 5;
 
 x = y + z;
 x = y * z;
+
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers[0])
+
+avengers[0] = 'IRONMAN';
+
+alert(avengers.length);
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+
+rickAndMortyCharacters.push('Morty', 'Summer');
+console.log(rickAndMortyCharacters[rickAndMortyCharacters.length - 1])
+
+rickAndMortyCharacters.push('Lapiz Lopez')
+rickAndMortyCharacters.pop(rickAndMortyCharacters[rickAndMortyCharacters.length - 1])
+
+console.log(rickAndMortyCharacters[0] + ' ' + rickAndMortyCharacters[rickAndMortyCharacters.length - 1])
+
+rickAndMortyCharacters.push('Lapiz Lopez')
+rickAndMortyCharacters.splice(1, 1)
+
+console.log(rickAndMortyCharacters)
