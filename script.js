@@ -46,3 +46,14 @@ globlaBasePrice = 25000;
 
 car1.finalPrice = car1.basePrice + globlaBasePrice;
 car2.finalPrice = car2.basePrice + globlaBasePrice;
+
+
+alert(10*5);
+alert(10/2);
+alert(15%9);
+
+y = 10;
+z = 5;
+
+x = y + z;
+x = y * z;
